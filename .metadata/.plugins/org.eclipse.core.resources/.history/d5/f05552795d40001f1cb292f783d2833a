@@ -1,0 +1,10 @@
+package interfaces;
+
+public class Test {
+	public static void main(String[] args) {
+		SMSService service = new SMSService();
+		NotificationService notificationService =
+				new NotificationService(service);
+		notificationService.notifyUser("Send email", null);
+	}
+}

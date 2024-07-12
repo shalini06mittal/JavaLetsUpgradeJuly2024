@@ -1,0 +1,16 @@
+package inheritance;
+
+public class Book extends Item{
+
+	String author;
+	public Book(int id, String description, double price, String name) {
+		// super is used to call the constructor of the immediate parent class
+		super(id, description, price, name);
+		System.out.println("Book constructor");
+	}
+	void m1() {
+		
+	}
+	
+	
+}

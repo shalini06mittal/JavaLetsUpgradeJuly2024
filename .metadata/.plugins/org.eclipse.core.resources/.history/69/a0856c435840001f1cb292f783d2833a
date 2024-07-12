@@ -1,0 +1,25 @@
+package inheritance;
+
+public class Book {
+
+	int id;
+	String description;
+	double price;
+	String name;
+	String authir;
+	public Book(int id, String description, double price, String name) {
+		this.id = id;
+		this.description = description;
+		this.price = price + 0.1*price;
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return "Book [id=" + id + ", description=" + description + ", price=" + price + ", name=" + name + "]";
+	}
+	
+	double calculateMrp(double taxprec) {
+		double mrp = price + price * taxprec/100;
+		return mrp;
+	}
+}

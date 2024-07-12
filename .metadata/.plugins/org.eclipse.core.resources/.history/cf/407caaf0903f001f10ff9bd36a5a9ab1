@@ -1,0 +1,9 @@
+package oops;
+// template
+public class Student {
+
+	// rno, name , email
+	int rollno;
+	String name;
+	String email;
+}

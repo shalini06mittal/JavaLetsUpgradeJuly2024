@@ -1,0 +1,14 @@
+package inheritance;
+
+public class Book extends Item{
+
+	String author;
+	public Book(int id, String description, double price, String name) {
+		
+	}
+	void m1() {
+		
+	}
+	
+	
+}

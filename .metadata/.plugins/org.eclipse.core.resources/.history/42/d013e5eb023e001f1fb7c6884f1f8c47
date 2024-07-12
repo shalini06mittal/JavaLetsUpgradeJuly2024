@@ -1,0 +1,27 @@
+package basic;
+
+public class VariablesDataTypes {
+
+	public static void main(String[] args) {
+		/**
+		 * multi line comments
+		 * data types : type of information we need to work upon
+		 * byte 1B
+		 * char 2B
+		 * short 2B
+		 * int  4B(default)
+		 * long 8B
+		 * float 4B
+		 * double 8B(default)
+		 * boolean (true or false)
+		 * 
+		 * variables: used to store values
+		 */
+		// create a variable age to store age of a person
+		int age; // variable declaration
+		// intialize a value
+		age = 10;
+
+	}
+
+}

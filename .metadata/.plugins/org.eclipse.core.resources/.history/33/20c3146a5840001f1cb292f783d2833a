@@ -1,0 +1,19 @@
+package inheritance;
+
+public class Audio {
+
+	int id;
+	String description;
+	double price;
+	String name;
+	String track;
+	public Audio(int id, String description, double price, String name) {
+		this.id = id;
+		this.description = description;
+		this.price = price + 0.1*price;
+		this.name = name;
+	}
+	
+	
+	
+}

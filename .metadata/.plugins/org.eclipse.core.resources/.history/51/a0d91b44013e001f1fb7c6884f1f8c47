@@ -1,0 +1,12 @@
+package basic;
+
+public class HelloWorld {
+	// entry point of the application
+	public static void main(String args[]) {
+		// ignored by the compiler andnot exeucted
+		// print a message hello world
+		System.out.println("Hello World");
+
+	}
+
+}

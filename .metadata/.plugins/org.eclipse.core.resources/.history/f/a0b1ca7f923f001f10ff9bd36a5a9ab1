@@ -1,0 +1,11 @@
+package oops;
+
+public class TestConstructor {
+
+	public static void main(String[] args) {
+		StudentConstrtuctor s1 = new StudentConstrtuctor();
+		
+
+	}
+
+}

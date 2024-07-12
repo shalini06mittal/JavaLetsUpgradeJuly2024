@@ -1,0 +1,15 @@
+package oops;
+// template
+public class Student {
+
+	// rno, name , email
+	int rollno;
+	String name;
+	String email;
+	// methods -> reusable piece of code
+	public void setDetails() {
+		rollno = 1;
+		name = "Shalini";
+		email = name+"@college.com";
+	}
+}

@@ -1,0 +1,9 @@
+package basic;
+
+public class HelloWorld {
+
+	// to be able to start somewhere i.e the concept of main
+	public static void main(String[] args) {
+		
+	}
+}

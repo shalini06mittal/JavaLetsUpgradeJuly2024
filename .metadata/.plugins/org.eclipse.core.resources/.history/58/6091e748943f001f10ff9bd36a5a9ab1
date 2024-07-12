@@ -1,0 +1,11 @@
+package oops;
+
+public class TestBook {
+
+	public static void main(String[] args) {
+		Book b1 = new Book("T1", "G1" , "A1", 120);
+		b1.display();
+
+	}
+
+}

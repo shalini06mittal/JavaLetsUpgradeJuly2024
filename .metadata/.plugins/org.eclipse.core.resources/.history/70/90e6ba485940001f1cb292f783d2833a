@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Book b1 = new Book(1, "some desc",876,"book name", "book author");
+		Book b2 = new Book();
+
+	}
+
+}

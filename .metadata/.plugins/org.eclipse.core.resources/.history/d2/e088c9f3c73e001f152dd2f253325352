@@ -1,0 +1,28 @@
+package basic;
+
+import java.util.Scanner;
+
+public class IfElseDemo {
+
+	public static void main(String[] args) {
+		/**
+		 * voting
+		 * If age above 18 can vote else cannot vote
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter age");
+		int age = sc.nextInt();
+		/**
+		 * Relational operators 
+		 * < > <= >= == != used generally with conditional expressions
+		 * if (condition){
+		 * 
+		 *	code to execute if the condition is true
+		 *}
+		 *else{
+		 *	code to execute if the condition is false
+		 *}
+		 */
+	}
+
+}

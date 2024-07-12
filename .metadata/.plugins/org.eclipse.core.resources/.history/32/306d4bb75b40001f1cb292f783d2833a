@@ -1,0 +1,9 @@
+package interfaces;
+
+public class NotificationService {
+
+	EmailService emailService = new EmailService();
+	void notifyUser(String message) {
+		emailService.sendMessage(message);
+	}
+}
